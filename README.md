@@ -89,7 +89,7 @@ There are two ways to specify the factory.
 As in the above example `./lib/xedit-lang-plugin` specifies the javascript file which exports the factory function.
 Or a plain name without embedded `/` indicates `index.js` which exports the factory function.
 
-The file `./lib/xedit-lang-plugin.js` will exports a factory function:
+The file `./lib/xedit-lang-plugin.js` exports a factory function:
 
 ```javascript
 ...
@@ -120,7 +120,7 @@ The above example specifies a javascript module which is interpreted the same wa
 except the module exports a dictionary instead of a function,
 and use `object` to specify the key in the dictionary to retrieve the factory function.
 
-In this case, the file `./lib/xedit-lang-multi-plugin.js` will exports an dictionary:
+In this case, the file `./lib/xedit-lang-multi-plugin.js` exports an dictionary:
 
 ```javascript
 ...
